@@ -1,0 +1,289 @@
+body {
+	background-image:url("Images/sarah-shaffer-VNmkt1J2Xvg-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
+.naviBar{
+	width: 100%;
+	height: 92px;
+	background-color: transparent;
+	overflow: hidden;
+}
+
+.naviLeft{
+	width: auto;
+	float: left;
+}
+
+.logo img{
+	width: 120px;
+	height: 70px;
+	padding-left: 40px;
+	float: left;
+	margin-top: 14px;
+}
+
+.naviLeft h4{
+	padding-left: 130px;
+	line-height: 80px;
+	color: white;
+	font-family: 'Cookie', cursive;
+	font-size: 38px;
+	margin-top: 6px;
+}
+
+.naviRight {
+	overflow: hidden;
+	width: auto;
+	float: right;
+
+}
+
+.naviRight a {
+	display: inline-block;
+ 	float: left;
+  	font-size: 19px;
+ 	color: white;
+ 	text-align: center;
+ 	padding: 25px 15px;
+  	text-decoration: none;
+}
+
+.shop {
+ 	float: left;
+  	overflow: hidden;
+  	opacity: 0.9;
+}
+
+.shop .shopbtn {
+ 	font-size: 19px;  
+  	color: white;
+ 	padding: 25px 15px;
+  	background-color: inherit;
+  	font-family: inherit;
+  	border: none;
+  	outline: none;
+}
+
+.naviRight a:hover, .shop:hover .shopbtn {
+  	color: #00FDFF;
+  	transition: 0.5s;
+}
+
+.sports {
+  	display:none;
+  	position: absolute;
+  	background-color:#B9B9B9;
+  	min-width: 150px;
+}
+
+.sports a {
+ 	float: none;
+  	color: black;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+  	text-align: left;
+}
+
+.sports a:hover {
+  	background-color: black;
+}
+
+.shop:hover .sports {
+  	display: block;
+}
+
+.headText{
+	margin-top: 40px;
+	margin-bottom : 40px;
+	font-size : 60px;
+	text-align : center;
+	font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.container {
+	position:relative; 
+	width:90%; 
+	padding: 10px; 
+	background: transparent; 
+	margin-top: 400px; 
+	display: flex; 
+	justify-content: space-around; 
+} 
+
+* {
+	box-sizing: border-box;
+}
+
+.imageBox {
+	position : relative;
+	top : 40px;
+}
+
+.image {
+	border-radius : 50%;
+
+}
+
+.detailsOverlay {
+	position : absolute;
+	top : 0;
+	bottom : 0;
+	left : 0;
+	right : 0;
+	opacity : 0;
+	transition : 0.5s ease;
+	background-color : #cacccb;
+	border-radius : 50%;
+	
+}
+
+.imageBox:hover .detailsOverlay{
+	opacity: 1;
+}
+
+.details {
+	color: black;
+	font-size: 22px;
+	font-family : "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	
+}
+
+.footer01{
+  position: absolute;
+  width: 100%;
+  height:400px;
+  background-color: #404040;
+  margin-top: 7%;
+}
+
+.page_name{
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  left: 70px;
+  font-family: 'Cookie', cursive;
+  top: 110px;
+}
+
+.footer_nav{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 500px;
+  top: 100px;
+}
+
+.footer_nav h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.footer_nav a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer_nav a:hover, .shop:hover .shopbtn {
+    color: #00FDFF;
+    transition: 0.5s;
+}
+
+.footer_contact{
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  left: 780px;
+  top: 100px;
+}
+
+.footer_contact a{
+	font-family: 'Open Sans', sans-serif;
+ 	font-size: 15px;
+ 	color: white;
+}
+
+.footer_contact h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.fb{
+  width: 95px;
+  height: 65px;
+  position: absolute;
+  top:120px;
+}
+
+.insta{
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  top: 130px;
+  left: 80px;
+}
+
+.tw{
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  top: 130px;
+  left: 138px;
+}
+
+
+.top_btn{
+  position: fixed;
+  bottom: 25px;
+  right: 50px;
+  z-index: 99;
+  text-decoration: none;
+  color: #00FDFF;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.b2t{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom : 0px;
+  right: 90px;
+}
+
+.page_top{
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  z-index: 90;
+  width: 130px;
+  height: 40px;
+  background-color: transparent;
+}
+
+.page_editor{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    right: 180px;
+    height: 220px;
+    width: 220px;
+    top: 35px;
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    border: white;
+    border-radius: 2px;
+}
